@@ -1,7 +1,4 @@
 
-
-
-
 <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -11,7 +8,7 @@
                 </div>
                 <div class="modal-body">
                   <!-- Formulario de Login -->
-                  <form id="loginForm" data-sb-form-api-token="API_TOKEN" autocomplete="off">
+                  <form id="loginForm"  method="POST" action="inicio_persona.php" >
                     <!-- Username input-->
                     <div class="form-floating mb-3">
                         <input class="form-control" name='nombre' id="username" type="text" placeholder="Enter your username..." data-sb-validations="required" />
@@ -36,16 +33,14 @@
                     </div>
                     <!-- Submit Button -->
                     <div class="d-grid">
-                       <input name='enviar' class="btn btn-primary btn-l" id="loginButton" type="submit" value="Entrar">
-                        <a class="crear-cuenta" href="registro_usuarios.html"> No tenes cuenta?   Registrate! </a>
+                       <input name='entrar' class="btn btn-primary btn-l" id="loginButton" type="submit" value="Entrar">
+                        <!--<a class="crear-cuenta" href="registro_usuarios.html"> No tenes cuenta?   Registrate! </a>-->
                     </div>
                    
-                </form>                
+                  </form>                
                 
-                </div>
-              </div>
             </div>
-          </div>
+        </div>
+    </div>
+</div>
 
-
-   
