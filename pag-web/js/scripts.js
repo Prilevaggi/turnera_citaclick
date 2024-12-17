@@ -79,3 +79,9 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     }, 3000);
 });
 
+flatpickr("#fechaHora", {
+    enableTime: true,
+    dateFormat: "Y-m-d H:i",
+    minDate: "today",
+    time_24hr: true
+});

@@ -8,7 +8,7 @@
                 </div>
                 <div class="modal-body">
                   <!-- Formulario de Login -->
-                  <form id="loginForm"  method="POST" action="inicio_persona.php" >
+                  <form id="loginForm"  method="POST" action="inicio_sesion.php" >
                     <!-- Username input-->
                     <div class="form-floating mb-3">
                         <input class="form-control" name='nombre' id="username" type="text" placeholder="Enter your username..." data-sb-validations="required" />

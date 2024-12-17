@@ -1,5 +1,5 @@
 <?php 
-    include("estructura/header_inicio.php");
+    include("estructura/header.php");
 
 ?>
         <!-- Masthead-->
